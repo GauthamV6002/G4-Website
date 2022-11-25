@@ -1,0 +1,33 @@
+main {
+    height: 75vh;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+svg {
+    overflow: visible;
+    transform: scale(0.5);
+}
+
+.navbar-nav {
+    color: black;
+    transition: 200ms ease-in-out;
+}
+
+.navbar-nav:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.indicator {
+    max-width: 450px;
+}
+
+img {
+    max-width: 450px;
+}
