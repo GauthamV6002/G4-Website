@@ -1,0 +1,35 @@
+main {
+    height: 75vh;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+}
+
+body { 
+    background-color: black;
+}
+  
+svg {
+    overflow: visible;
+}
+
+.navbar-nav {
+    color: white;
+    transition: 200ms ease-in-out;
+}
+
+.navbar-nav:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+#indicator {
+    max-width: 450px;
+}
