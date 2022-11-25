@@ -30,11 +30,11 @@ let oldChart;
                 }
             });
             
-        setTimeout(() => oldChart.destroy(), 900);
+        setTimeout(() => oldChart.destroy(), 1400);
         data.labels.push(currentX + 1);
         data.datasets[0].data.push(currentX * 2 + 3 + (Math.random() * 5 - 2.5));
 
         currentX++;
         console.log("wtf")
-    }, 1000)   
+    }, 1500)   
   })();
